@@ -719,7 +719,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--key",
-        choices=["data","mc","data-C-E","data-F-G","othermc","signal"],
+        choices=["data","mc","data-C-E","data-F-G","othermc","signal","bbtautau"],
         required=True,
         help="sample grouping key",
         type=str,
