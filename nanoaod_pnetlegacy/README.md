@@ -42,6 +42,14 @@ voms-proxy-init --voms cms --valid 168:00
 source /cvmfs/cms.cern.ch/crab3/crab.sh prod
 ```
 
+- bbtautau
+```bash
+python3 submit_nanoaod.py --era 2022 --key bbtautau --username rkansal
+python3 submit_nanoaod.py --era 2022EE --key bbtautau --username rkansal
+python3 submit_nanoaod.py --era 2023 --key bbtautau --username rkansal
+python3 submit_nanoaod.py --era 2023BPix --key bbtautau --username rkansal
+```
+
 - rkansal
 ```bash
 python3 submit_nanoaod.py --era 2022 --key mc --username rkansal
