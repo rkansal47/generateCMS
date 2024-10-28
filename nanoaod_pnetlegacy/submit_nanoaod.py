@@ -663,7 +663,7 @@ def main(args):
     key = args.key
 
     samples = all_samples[era][key]
-    if key in ["othermc", "signal"]:
+    if key in ["othermc", "signal", "bbtautau"]:
         config_name = config_per_eras[era]["mc"]
     else:
         config_name = config_per_eras[era][key]
