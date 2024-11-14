@@ -205,10 +205,14 @@ all_samples = {
             },
         },
         "data": {
-            "JetMET": {
-                "JetHT_Run2022C": "/JetHT/Run2022C-22Sep2023-v1/MINIAOD",
-                "JetMET_Run2022C": "/JetMET/Run2022C-22Sep2023-v1/MINIAOD",
-                "JetMET_Run2022D": "/JetMET/Run2022D-22Sep2023-v1/MINIAOD",
+            # "JetMET": {
+            #     "JetHT_Run2022C": "/JetHT/Run2022C-22Sep2023-v1/MINIAOD",
+            #     "JetMET_Run2022C": "/JetMET/Run2022C-22Sep2023-v1/MINIAOD",
+            #     "JetMET_Run2022D": "/JetMET/Run2022D-22Sep2023-v1/MINIAOD",
+            # },
+            "Tau": {
+                "Tau_Run2022C": "/Tau/Run2022C-22Sep2023-v1/MINIAOD",
+                "Tau_Run2022D": "/Tau/Run2022D-22Sep2023-v1/MINIAOD",
             },
         },
     },
@@ -346,15 +350,22 @@ all_samples = {
             # check VBS 
         },
         "data-C-E": {
-            "JetMET": {
-                "JetMET_Run2022E": "/JetMET/Run2022E-22Sep2023-v1/MINIAOD",
-            },
+            # "JetMET": {
+            #     "JetMET_Run2022E": "/JetMET/Run2022E-22Sep2023-v1/MINIAOD",
+            # },
+            "Tau": {
+                "Tau_Run2022E": "/Tau/Run2022E-22Sep2023-v1/MINIAOD",
+            }
         },
         "data-F-G": {
-            "JetMET": {
-                "JetMET_Run2022F": "/JetMET/Run2022F-22Sep2023-v2/MINIAOD",
-                "JetMET_Run2022G": "/JetMET/Run2022G-22Sep2023-v2/MINIAOD",
-            },
+            # "JetMET": {
+            #     "JetMET_Run2022F": "/JetMET/Run2022F-22Sep2023-v2/MINIAOD",
+            #     "JetMET_Run2022G": "/JetMET/Run2022G-22Sep2023-v2/MINIAOD",
+            # },
+            "Tau": {
+                "Tau_Run2022F": "/Tau/Run2022F-22Sep2023-v1/MINIAOD",
+                "Tau_Run2022G": "/Tau/Run2022G-22Sep2023-v1/MINIAOD",
+            }
         },
     },
     "2023": {
@@ -473,15 +484,22 @@ all_samples = {
             }
         },
         "data": {
-            "JetMET": {
-                "JetMET_Run2023C_0v1": "/JetMET0/Run2023C-22Sep2023_v1-v1/MINIAOD",
-                "JetMET_Run2023C_0v2": "/JetMET0/Run2023C-22Sep2023_v2-v1/MINIAOD",
-                "JetMET_Run2023C_0v3": "/JetMET0/Run2023C-22Sep2023_v3-v1/MINIAOD",
-                "JetMET_Run2023C_0v4": "/JetMET0/Run2023C-22Sep2023_v4-v1/MINIAOD",
-                "JetMET_Run2023C_1v1": "/JetMET1/Run2023C-22Sep2023_v1-v1/MINIAOD",
-                "JetMET_Run2023C_1v2": "/JetMET1/Run2023C-22Sep2023_v2-v1/MINIAOD",
-                "JetMET_Run2023C_1v3": "/JetMET1/Run2023C-22Sep2023_v3-v1/MINIAOD",
-                "JetMET_Run2023C_1v4": "/JetMET1/Run2023C-22Sep2023_v4-v1/MINIAOD",
+            # "JetMET": {
+            #     "JetMET_Run2023C_0v1": "/JetMET0/Run2023C-22Sep2023_v1-v1/MINIAOD",
+            #     "JetMET_Run2023C_0v2": "/JetMET0/Run2023C-22Sep2023_v2-v1/MINIAOD",
+            #     "JetMET_Run2023C_0v3": "/JetMET0/Run2023C-22Sep2023_v3-v1/MINIAOD",
+            #     "JetMET_Run2023C_0v4": "/JetMET0/Run2023C-22Sep2023_v4-v1/MINIAOD",
+            #     "JetMET_Run2023C_1v1": "/JetMET1/Run2023C-22Sep2023_v1-v1/MINIAOD",
+            #     "JetMET_Run2023C_1v2": "/JetMET1/Run2023C-22Sep2023_v2-v1/MINIAOD",
+            #     "JetMET_Run2023C_1v3": "/JetMET1/Run2023C-22Sep2023_v3-v1/MINIAOD",
+            #     "JetMET_Run2023C_1v4": "/JetMET1/Run2023C-22Sep2023_v4-v1/MINIAOD",
+            # },
+            "Tau": {
+                "Tau_Run2023B": "/Tau/Run2023B-22Sep2023-v1/MINIAOD",
+                "Tau_Run2023C_v1": "/Tau/Run2023C-22Sep2023_v1-v2/MINIAOD",
+                "Tau_Run2023C_v2": "/Tau/Run2023C-22Sep2023_v2-v1/MINIAOD",
+                "Tau_Run2023C_v3": "/Tau/Run2023C-22Sep2023_v3-v1/MINIAOD",
+                "Tau_Run2023C_v4": "/Tau/Run2023C-22Sep2023_v4-v1/MINIAOD",
             },
         },
     },
@@ -606,6 +624,10 @@ all_samples = {
                 "JetMET_Run2023D_0v2": "/JetMET0/Run2023D-22Sep2023_v2-v1/MINIAOD",
                 "JetMET_Run2023D_1v1": "/JetMET1/Run2023D-22Sep2023_v1-v1/MINIAOD",
                 "JetMET_Run2023D_1v2": "/JetMET1/Run2023D-22Sep2023_v2-v1/MINIAOD",
+            },
+            "Tau": {
+                "Tau_Run2023D_v1": "/Tau/Run2023D-22Sep2023_v1-v1/MINIAOD",
+                "Tau_Run2023D_v2": "/Tau/Run2023D-22Sep2023_v2-v1/MINIAOD",
             },
         },
     },

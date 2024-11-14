@@ -35,7 +35,7 @@ wget https://coli.web.cern.ch/coli/tmp/.240120-181907_ak8_stage2/model.onnx -O $
 scram b -j 10
 ```
 
-## Production Sep204
+## Production Sep2024
 
 ```
 voms-proxy-init --voms cms --valid 168:00
@@ -75,10 +75,19 @@ python3 submit_nanoaod.py --era 2023BPix --key othermc --username woodson
 ```
 
 - sixie
-```
+```bash
 python3 submit_nanoaod.py --era 2022 --key data --username sixie
 python3 submit_nanoaod.py --era 2022EE --key data-C-E --username sixie
 python3 submit_nanoaod.py --era 2022EE --key data-F-G --username sixie
 python3 submit_nanoaod.py --era 2023 --key data --username sixie
 python3 submit_nanoaod.py --era 2023BPix --key data --username sixie
+```
+
+- rkansal (submitting Tau)
+```bash
+python3 submit_nanoaod.py --era 2022 --key data --username rkansal
+python3 submit_nanoaod.py --era 2022EE --key data-C-E --username rkansal
+python3 submit_nanoaod.py --era 2022EE --key data-F-G --username rkansal
+python3 submit_nanoaod.py --era 2023 --key data --username rkansal
+python3 submit_nanoaod.py --era 2023BPix --key data --username rkansal
 ```
