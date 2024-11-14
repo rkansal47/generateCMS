@@ -619,12 +619,12 @@ all_samples = {
             },
         },
         "data": {
-            "JetMET": {
-                "JetMET_Run2023D_0v1": "/JetMET0/Run2023D-22Sep2023_v1-v1/MINIAOD",
-                "JetMET_Run2023D_0v2": "/JetMET0/Run2023D-22Sep2023_v2-v1/MINIAOD",
-                "JetMET_Run2023D_1v1": "/JetMET1/Run2023D-22Sep2023_v1-v1/MINIAOD",
-                "JetMET_Run2023D_1v2": "/JetMET1/Run2023D-22Sep2023_v2-v1/MINIAOD",
-            },
+            # "JetMET": {
+            #     "JetMET_Run2023D_0v1": "/JetMET0/Run2023D-22Sep2023_v1-v1/MINIAOD",
+            #     "JetMET_Run2023D_0v2": "/JetMET0/Run2023D-22Sep2023_v2-v1/MINIAOD",
+            #     "JetMET_Run2023D_1v1": "/JetMET1/Run2023D-22Sep2023_v1-v1/MINIAOD",
+            #     "JetMET_Run2023D_1v2": "/JetMET1/Run2023D-22Sep2023_v2-v1/MINIAOD",
+            # },
             "Tau": {
                 "Tau_Run2023D_v1": "/Tau/Run2023D-22Sep2023_v1-v1/MINIAOD",
                 "Tau_Run2023D_v2": "/Tau/Run2023D-22Sep2023_v2-v1/MINIAOD",
