@@ -713,7 +713,7 @@ def main(args):
             this_config.Data.inputDBS = 'global'
             if "data" in key:
                 this_config.Data.splitting = 'LumiBased'
-                this_config.Data.unitsPerJob = 5
+                this_config.Data.unitsPerJob = 50
             elif "signal" in key:
                 this_config.Data.splitting = 'FileBased'
                 this_config.Data.unitsPerJob = 5
